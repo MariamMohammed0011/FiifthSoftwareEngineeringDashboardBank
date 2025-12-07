@@ -43,3 +43,23 @@
  
 /* for Firefox */
  /* html {scrollbar-color: #9e4673 #3d4a59;}  */
+
+
+ .input {
+  @apply w-full p-2 rounded-lg bg-gray-100 mb-3 outline-none;
+}
+.btn-blue {
+  @apply bg-blue-600 text-white py-2 px-4 rounded-md shadow hover:bg-blue-700;
+}
+
+.btn-yellow {
+  @apply bg-yellow-500 text-white py-2 px-4 rounded-md shadow hover:bg-yellow-600;
+}
+
+.btn-red {
+  @apply bg-red-600 text-white py-2 px-4 rounded-md shadow hover:bg-red-700;
+}
+
+.input {
+  @apply w-full p-2 rounded-lg bg-gray-100 mb-3 outline-none;
+}
